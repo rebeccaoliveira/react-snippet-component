@@ -1,5 +1,8 @@
 # Welcome to [React](https://reactjs.org/) Snippet Component :)
 
+## See in Action
+
+![Component Gif](https://github.com/rebyoliveira/react-snippet-component/blob/master/docs/react_component.gif?raw=true)
 
 ## Installation
 
