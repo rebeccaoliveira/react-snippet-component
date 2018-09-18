@@ -1,6 +1,6 @@
 {
     "name": "react-snippet-component",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "React Snippet Component for npm",
     "main": "./lib/SnippetComponent.js",
     "license": "MIT",

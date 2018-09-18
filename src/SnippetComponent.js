@@ -127,7 +127,7 @@ const SnippetComponent = () => (
   <SniRoot>
     <SniImage/>
     <SniFigcap>
-      <SniTitle>Nyan <SniSpan>Cat</SniSpan></SniTitle>
+      <SniTitle><SniSpan></SniSpan></SniTitle>
     </SniFigcap>
     <SniA href="#"></SniA>
   </SniRoot>
