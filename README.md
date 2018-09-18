@@ -1,8 +1,9 @@
 # Welcome to [React](https://reactjs.org/) Snippet Component :)
 
+
 ## Installation
 
-Snippet Component is available as an [NPM Package](https://www.npmjs.com/package/react-snippet-component)
+React Snippet Component is available as an [NPM Package](https://www.npmjs.com/package/react-snippet-component)
 
 using npm
 
