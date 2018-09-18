@@ -44,6 +44,7 @@ export default Snippet
 
 ## Dependencies
 
+```
 SnippetComponent.propTypes = {
   image: PropTypes.string,
   alt: PropTypes.string,
@@ -51,7 +52,7 @@ SnippetComponent.propTypes = {
   span: PropTypes.string,
   href: PropTypes.string
 }
-
+```
 
 ## License
 
