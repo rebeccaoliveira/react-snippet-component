@@ -1,11 +1,12 @@
 {
     "name": "react-snippet-component",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "React Snippet Component for npm",
     "main": "./lib/SnippetComponent.js",
     "license": "MIT",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "build-watch": "webpack -w"
     },
     "peerDependencies": {
         "prop-types": "^15.6.0",

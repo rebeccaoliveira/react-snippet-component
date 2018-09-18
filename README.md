@@ -17,18 +17,25 @@ npm i react-snippet-component
 ## Usage
 
 ```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
-import SnippetComponent from 'SnippetComponent';
+import React from 'react'
+import SnippetComponent from 'react-snippet-component'
+import NyanCat from '../images/nyan-cat.jpg'
 
-function Snippet() {
-  return (
+const Snippet = () => (
+  <div>
     <div>
-      <p>Hello World</p>
-      <SnippetComponent />
-    <div>
-  );
-}
+      <h1>Hello!</h1>
+      <p>Welcome to my snippet</p>
+    </div>
+    <SnippetComponent
+      image={NyanCat}
+      alt="NyanCat"
+      title="Title"
+      span="Span"
+      href="https://rebyoliveira.github.io/projects/"
+    />
+  </div>
+)
 
 export default Snippet
 
@@ -37,7 +44,13 @@ export default Snippet
 
 ## Dependencies
 
-[Styled-Component](https://styled-components.com)
+SnippetComponent.propTypes = {
+  image: PropTypes.string,
+  alt: PropTypes.string,
+  title: PropTypes.string,
+  span: PropTypes.string,
+  href: PropTypes.string
+}
 
 
 ## License

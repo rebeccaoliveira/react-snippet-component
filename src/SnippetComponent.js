@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components'
 
 const SniRoot = styled.figure`
@@ -123,15 +124,22 @@ const TextStyle = styled.h1`
   padding: 30px 0px 30px 0px;
 `
 
-const SnippetComponent = () => (
+const SnippetComponent = ({image, alt, title, span, href}) => (
   <SniRoot>
-    <SniImage/>
+    <SniImage width="100%" src={image} alt={alt} />
     <SniFigcap>
-      <SniTitle><SniSpan></SniSpan></SniTitle>
+      <SniTitle>{title}<SniSpan>{span}</SniSpan></SniTitle>
     </SniFigcap>
-    <SniA href="#"></SniA>
+    <SniA href={href}></SniA>
   </SniRoot>
 );
 
+SnippetComponent.propTypes = {
+  image: PropTypes.string,
+  alt: PropTypes.string,
+  title: PropTypes.string,
+  span: PropTypes.string,
+  href: PropTypes.string
+}
 
 export default SnippetComponent;
