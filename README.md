@@ -1,5 +1,7 @@
 # Welcome to [React](https://reactjs.org/) Snippet Component :)
 
+[![Build Status](https://travis-ci.org/rebyoliveira/react-snippet-component.svg?branch=master)](https://travis-ci.org/rebyoliveira/react-snippet-component.svg?branch=master)
+
 ## See in Action
 
 ![Component Gif](https://github.com/rebyoliveira/react-snippet-component/blob/master/docs/react_component.gif?raw=true)
