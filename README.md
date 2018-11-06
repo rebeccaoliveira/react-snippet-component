@@ -1,4 +1,3 @@
-https://travis-ci.org/rebyoliveira/react-snippet-component.svg?branch=master
 # Welcome to [React](https://reactjs.org/) Snippet Component :)
 
 ## See in Action
